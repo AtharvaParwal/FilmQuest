@@ -30,7 +30,7 @@ function Home() {
         <footer className="container-fluid footer-style">
           <div className="container d-flex justify-content-between align-middle">
               <span>© 2024 FilmQuest</span>
-              <a href="https://github.com/AtharvaParwal/FilmQuest" target="/blank"><img className="github-icon" src={github} alt="github"/></a>
+              <a href="https://github.com/AtharvaParwal?tab=repositories" target="/blank"><img className="github-icon" src={github} alt="github"/></a>
           </div>
         </footer>
     </div>
