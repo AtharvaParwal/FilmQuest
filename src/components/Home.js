@@ -22,7 +22,7 @@ function Home() {
               <h6 className="tech">HTML</h6>
               <h6 className="tech">CSS</h6>
               <h6 className="tech">JavaScript</h6>
-              <h6 className="tech">Bootstrap</h6>
+              {/* <h6 className="tech">Bootstrap</h6> */}
 
             </div>
           </div>
