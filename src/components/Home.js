@@ -3,6 +3,9 @@ import Banner from './Banner'
 import github from '../github.svg'
 
 function Home() {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
         <Banner text="Welcome to FilmQuest"/>
@@ -29,7 +32,8 @@ function Home() {
         </div>
         <footer className="container-fluid footer-style">
           <div className="container d-flex justify-content-between align-middle">
-              <span>© 2024 FilmQuest</span>
+              <span>© Copyright <b>{currentYear}</b>: Designed and Built by <b>Atharva Parwal</b></span>
+
               <a href="https://github.com/AtharvaParwal/FilmQuest" target="/blank"><img className="github-icon" src={github} alt="github"/></a>
           </div>
         </footer>
